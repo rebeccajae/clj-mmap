@@ -1,23 +1,23 @@
-Available via [clojars](https://clojars.org/clj-mmap)   
-Current stable version: [clj-mmap "2.0.0"]
+Available via [clojars](https://clojars.org/file-atlas)   
+Current stable version: [file-atlas "1.0.0"]
 
 
-# clj-mmap
+# File Atlas
 
-A Clojure library designed to allow you to easily mmap files via Java's NIO, and to handle files larger than 2GB.
+A Clojure library designed to allow you to easily mmap files via Java's NIO, and to handle files larger than 2GB. This is based on the [clj-mmap](https://github.com/thebusby/clj-mmap)
 
 
 ## Usage
 ```clojure
-(with-open [mapped-file (clj-mmap/get-mmap "/tmp/big_file.txt")]
-  (let [some-bytes (clj-mmap/get-bytes mapped-file 0 30)]
+(with-open [mapped-file (file-atlas/get-mmap "/tmp/big_file.txt")]
+  (let [some-bytes (file-atlas/get-bytes mapped-file 0 30)]
     (println (str "First 30 bytes of file, '" (String. some-bytes "UTF-8") "'"))))
 ```
 
 
 ## Artifacts
 
-clj-mmap artifacts are [released to Clojars](https://clojars.org/clj-mmap).
+file-atlas artifacts are [released to Clojars](https://clojars.org/file-atlas).
 
 If you are using Maven, add the following repository definition to your `pom.xml`:
 
@@ -32,15 +32,15 @@ If you are using Maven, add the following repository definition to your `pom.xml
 
 With Leiningen:
 
-    [clj-mmap "2.0.0"]
+    [file-atlas "1.0.0"]
 
 
 With Maven:
 
     <dependency>
-      <groupId>clj-mmap</groupId>
-      <artifactId>clj-mmap</artifactId>
-      <version>2.0.0</version>
+      <groupId>file-atlas</groupId>
+      <artifactId>file-atlas</artifactId>
+      <version>1.0.0</version>
     </dependency>
 
 

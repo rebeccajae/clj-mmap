@@ -1,6 +1,6 @@
-(ns clj-mmap.core-test
+(ns file-atlas.core-test
   (:require [clojure.test :refer :all]
-            [clj-mmap :refer :all]
+            [file-atlas :refer :all]
             [clojure.java.io :as io]))
 
 (defn file-generator [f]

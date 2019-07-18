@@ -1,4 +1,4 @@
-(ns clj-mmap)
+(ns file-atlas)
 
 (set! *warn-on-reflection* true)
 
