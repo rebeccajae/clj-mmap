@@ -1,5 +1,5 @@
 Available via [clojars](https://clojars.org/clj-mmap)   
-Current stable version: [clj-mmap "1.1.2"]
+Current stable version: [clj-mmap "2.0.0"]
 
 
 # clj-mmap
@@ -32,7 +32,7 @@ If you are using Maven, add the following repository definition to your `pom.xml
 
 With Leiningen:
 
-    [clj-mmap "1.1.2"]
+    [clj-mmap "2.0.0"]
 
 
 With Maven:
@@ -40,7 +40,7 @@ With Maven:
     <dependency>
       <groupId>clj-mmap</groupId>
       <artifactId>clj-mmap</artifactId>
-      <version>1.1.2</version>
+      <version>2.0.0</version>
     </dependency>
 
 
@@ -52,3 +52,5 @@ http://opensource.org/licenses/MIT
 I'd also like to thank my employer, Gracenote, for allowing me to create this open source port.
 
 Copyright (C) 2012-2013 Alan Busby
+
+Some contributions Copyright (C) 2019 Rebecca Pruim
