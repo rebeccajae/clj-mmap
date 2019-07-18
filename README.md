@@ -1,6 +1,4 @@
-Available via [clojars](https://clojars.org/file-atlas)   
-Current stable version: [file-atlas "1.0.0"]
-
+[![Clojars Project](https://img.shields.io/clojars/v/file-atlas.svg)](https://clojars.org/file-atlas)
 
 # File Atlas
 
